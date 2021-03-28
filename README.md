@@ -1,11 +1,11 @@
 
-# shop-shop
+# redux-store
 
-![GitHub issues](https://img.shields.io/github/issues/CaseyDeriso/shop-shop) ![GitHub pull requests](https://img.shields.io/github/issues-pr/CaseyDeriso/shop-shop) ![license](https://img.shields.io/github/license/CaseyDeriso/shop-shop) ![GitHub Repo stars](https://img.shields.io/github/stars/CaseyDeriso/shop-shop?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/CaseyDeriso/shop-shop)
+![GitHub issues](https://img.shields.io/github/issues/CaseyDeriso/redux-store) ![GitHub pull requests](https://img.shields.io/github/issues-pr/CaseyDeriso/redux-store) ![license](https://img.shields.io/github/license/CaseyDeriso/redux-store) ![GitHub Repo stars](https://img.shields.io/github/stars/CaseyDeriso/redux-store?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/CaseyDeriso/redux-store)
 
 ## Description
 
-Shop-Shop is an E-Commerce application where users can buy items from several categories of products. This is a MERN stack project which I refactored from using React-Context-API for global state management to using Redux!
+redux-store is an E-Commerce application where users can buy items from several categories of products. This is a MERN stack project which I refactored from using React-Context-API for global state management to using Redux!
 
 ## Table of Contents:
 * [Installation](#installation)
