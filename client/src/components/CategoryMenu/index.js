@@ -5,21 +5,21 @@ import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
 } from "../../utils/actions";
-import { useStoreContext } from "../../utils/GlobalState";
+import { useDispatch, useSelector } from "react-redux";
+
 
 import { idbPromise } from "../../utils/helpers";
 
 function CategoryMenu({ setCategory }) {
-  // new global state object data managment
-  const [state, dispatch] = useStoreContext();
+  const categories = useSelector(state => state.categories);
 
-  const { categories } = state;
+  const dispatch = useDispatch();
 
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
 
   // create useEffect to dispatch categories once query is handled
   useEffect(() => {
-    // if categoryData exists or has changed from the response of useQUery, then run dispatch
+    // if categoryData exists or has changed from the response of useQuery, then run dispatch
     if (categoryData) {
       // execute our dispatch function with our action object indicating the type of action and the data to set our state for categories to
       dispatch({
