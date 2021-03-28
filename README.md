@@ -5,7 +5,7 @@
 
 ## Description
 
-Shop-Shop is an E-Commerce application where users can buy items from several categories of products. This is a MERN stack project which I refactored from using prop-drilling for state management to using React-Context-API for global state management. I also implemented an IndexedDB object store for offline use, implemented Stripe for payment management and deployed the application to Heroku. 
+Shop-Shop is an E-Commerce application where users can buy items from several categories of products. This is a MERN stack project which I refactored from using React-Context-API for global state management to using Redux!
 
 ## Table of Contents:
 * [Installation](#installation)
