@@ -20,7 +20,7 @@ This projects development environment uses concurrently to run both the server a
 
 
 ## Screenshot
-![Screenshot of Application](./assets/photos/screenshot.png)
+![Screenshot of Application](./photos/screenshot.png)
       
 
 ## Credits
